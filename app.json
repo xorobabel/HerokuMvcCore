@@ -1,0 +1,12 @@
+{
+  "name": "HerokuMvcCore",
+  "description": "Demo MVC ASP.NET Core app on Heroku",
+  "repository": "https://github.com/xorobabel/HerokuMvcCore",
+  "keywords": ["aspnet", "core", "heroku", "mvc"],
+  "stack": "heroku-16",
+  "buildpacks": [
+    {
+      "url": "https://github.com/jincod/dotnetcore-buildpack#v2.1.300"
+    }
+  ]
+}
